@@ -12,6 +12,7 @@
 
 ## Suggested improvements
 
+  - Make the crime ranking algorithm account for foot traffic. At present, the algorithm recommends that pedestrians avoid high traffic areas because it's highly likely that crimes would have occured in those areas in the past year. This is a problem because high traffic areas are often safer than quieter areas. The route ranking algorithm would be greatly improved if it could take pedestrian traffic into account.
   - Configure Twilio to receive SMS' containing origin & destination address, and to then reply with the safest route between their current location and their desination address.
   - Assess more 'dummy routes' than the 3 Google Maps Directions gives us. New dummy routes could be suggested by specifying a random waypoint between origin and destination.
   - Connect the back end to a React Native Mobile App.
